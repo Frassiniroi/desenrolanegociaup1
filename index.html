@@ -1,59 +1,77 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oferta Especial</title>
-    <style>
-        *{margin:0;padding:0;box-sizing:border-box}
-        body{font-family:Arial,Helvetica,sans-serif;background:#f7f7f7;color:#222;min-height:100vh}
-        .container{width:100%;max-width:620px;margin:0 auto;padding:35px 20px 25px;text-align:center}
-        .logo{display:block;max-width:180px;max-height:80px;width:auto;height:auto;margin:0 auto 30px}
-        .headline{font-size:34px;line-height:1.15;font-weight:800;margin-bottom:20px;color:#111}
-        .headline span{color:#00a86b}
-        .copy{font-size:17px;line-height:1.65;color:#444;margin-bottom:28px}
-        .button{display:block;width:100%;max-width:500px;margin:0 auto;padding:19px 25px;background:#00a86b;color:#fff;text-decoration:none;font-size:19px;font-weight:800;border-radius:8px;transition:.2s ease;box-shadow:0 5px 15px rgba(0,168,107,.25)}
-        .button:hover{transform:translateY(-2px);background:#008f5b}
-        .small-text{font-size:12px;line-height:1.5;color:#888;margin-top:20px}
-        .footer{margin-top:35px;padding-top:20px;border-top:1px solid #ddd;font-size:11px;line-height:1.5;color:#999}
-        @media(max-width:480px){.container{padding:25px 16px 20px}.headline{font-size:28px}.copy{font-size:16px}.button{font-size:17px;padding:17px 20px}}
-    </style>
+<!DOCTYPE html><html lang="pt-BR"><head>
+<!DOCTYPE html><html lang="pt-br" translate="no"><head>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1023019220349660');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1023019220349660&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salgados - Pedido Confirmado</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:Arial,sans-serif;background-color:#f5f5f5;color:#000;text-align:center;padding:20px;}
+.container{max-width:500px;margin:0 auto;padding:25px 20px;background-color:#fff;border-radius:12px;box-shadow:0 0 20px rgba(255,140,0,0.15);}
+.logo{width:120px;margin-bottom:10px;}
+.status-badge{background-color:#000000;border:1px solid #000000;color:#FFFFFF;border-radius:20px;padding:6px 16px;font-size:14px;font-weight:bold;display:inline-block;margin-bottom:15px;}
+h1{color:#000000;font-size:22px;margin-bottom:5px;}
+.pedido-info{background-color:#FFFFFF;border-left:4px solid #000000;border-radius:6px;padding:12px 15px;margin:15px 0;text-align:left;font-size:15px;color:#333;}
+.pedido-info span{color:#000000;font-weight:bold;}
+.entrega-box{background-color:#FFF;border:2px dashed #000000;border-radius:10px;padding:15px;margin:15px 0;}
+.entrega-box p{font-size:15px;color:#000000;margin-bottom:8px;}
+.preco-entrega{font-size:28px;font-weight:bold;color:#000000;}
+.timer-box{background-color:#000000;color:white;border-radius:8px;padding:10px;margin:15px 0;font-size:14px;}
+.timer-box strong{font-size:20px;}
+.btn-pagar{background-color:#15803D;color:white;padding:16px 30px;border:none;border-radius:8px;cursor:pointer;font-size:18px;font-weight:bold;width:100%;text-decoration:none;display:block;margin-top:10px;animation:pulse 1.5s infinite;}
+.btn-pagar:hover{background-color:#cc7000;}
+@keyframes pulse{0%{transform:scale(1);}50%{transform:scale(1.03);}100%{transform:scale(1);}}
+.garantia{font-size:13px;color:#666;margin-top:12px;}
+</style>
 </head>
 <body>
-<main class="container">
-    <img src="https://i.postimg.cc/fTYfvZ8W/Icone-de-Conta-Verificada.jpg" alt="Logo" class="logo" style="width: 120px; height: auto;">
-
-    <h1 class="headline">
-        Espere! Antes de continuar,<br>
-        <span>tenho uma oferta especial para você</span>
-    </h1>
-
-    <div class="copy">
-        Você acabou de garantir acesso à nossa oferta principal.<br>
-        Mas existe uma oportunidade especial disponível nesta página.<br>
-        Essa condição foi criada exclusivamente para quem chegou até aqui.<br>
-        Você poderá aproveitar um benefício adicional antes de finalizar.<br>
-        É uma forma simples de potencializar sua experiência.<br>
-        A oferta está disponível por uma condição diferenciada.<br>
-        Se fizer sentido para você, aproveite enquanto ela está disponível.<br>
-        Caso contrário, você pode simplesmente continuar normalmente.<br>
-        Não existe nenhuma obrigação de aceitar esta oferta.<br>
-        <strong>Confira abaixo e veja se essa oportunidade faz sentido para você.</strong>
-    </div>
-
-    <a href="https://SEU-LINK-DO-UPSELL.com" class="button">
-        QUERO APROVEITAR ESTA OFERTA
-    </a>
-
-    <p class="small-text">
-        Compra segura e processamento realizado de forma protegida.
-    </p>
-
-    <footer class="footer">
-        © 2026 Nome da Empresa. Todos os direitos reservados.
-        <br>
-        Este site não é afiliado ao Google, Facebook, Instagram ou qualquer outra plataforma mencionada.
-    </footer>
-</main>
-</body>
-</html>
+<div class="container">
+  <img src="https://i.postimg.cc/2SbXHLnD/Engajar-me-Logo.png" alt="Engajar-me Logo" width="120">
+  <div class="status-badge">Pedido em preparo</div>
+  <h1>✅ Verificação necessária</h1>
+  <div class="pedido-info">
+    <b>Pedido realizado em</b> <span id="datetime"></span><br>
+    <br>
+    <p>⚠️ Atenção: Se você não concluir essa verificação agora, seu pedido será cancelado permanentemente! ⚠️</p>
+    <br>
+    <p>👉🏻 Nós prezamos pela qualidade, segurança e privacidade dos nossos membros.</p>
+    <br>
+    <p>✅ É uma cobrança obrigatória da plataforma que gerencia os seguidores da sua conta (segurança, anti-invasão, verificação de pagamento e identidade).</p>
+    <br>
+    <p>Por isso, ativamos a Tarifa de Segurança Legal (T.S.L.), um protocolo obrigatório de verificação. ⛔ SEM ESSA TAXA, O SISTEMA NÃO LIBERA OS SEGUIDORES ⛔</p>
+    <br>
+    <p>💳 O valor é simbólico, serve apenas como filtro de acesso seguro e é 100% reembolsável após a verificação.</p>
+    <br>
+    <p>Receba seus seguidores agora mesmo. 👇</p>
+  </div>
+  <div class="entrega-box">
+    <p>Taxinha de Verificação</p>
+    <div class="preco-entrega">R$ 9,90</div>
+  </div>
+  <div class="timer-box">Essa oferta encerrará em: <strong id="timer">10:00</strong></div>
+  <a href="https://pay.risepay.com.br/Pay/7c390f7614994d5a9843fa8b01895df7" class="btn-pagar">🟢 VALIDAR MINHA CONTA 🟢</a>
+  <p class="garantia">Pagamento 100% seguro via PIX</p>
+</div>
+<script>
+function updateDateTime(){let now=new Date();let options={day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'};document.getElementById("datetime").innerText=now.toLocaleString("pt-BR",options);}
+updateDateTime();
+function startTimer(d){let t=d;const disp=document.getElementById("timer");const iv=setInterval(()=>{let m=Math.floor(t/60);let s=t%60;disp.textContent=(m<10?"0":"")+m+":"+(s<10?"0":"")+s;if(--t<0)clearInterval(iv);},1000);}
+startTimer(600);
+</script>
+</body></html>
